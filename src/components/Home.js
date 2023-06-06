@@ -10,9 +10,9 @@ export default class Home extends Component {
         Internet Art
         </h1> 
         <article className="GameGrid">
-        <section className="GameContainer">
+        {/* <section className="GameContainer">
          <Spline scene="https://prod.spline.design/RaQFluFo5qvJH9JB/scene.splinecode" />
-         </section>
+         </section> */} 
          <section className="pGrid">
          <p>Paragraph 1 about website</p>
          <p>Paragraph 2 about website</p>
