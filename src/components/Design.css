@@ -9,10 +9,21 @@ h2{
 .gif{
     height: auto;
     width: auto;
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .headingGrid{
-    
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 1rem;
+    margin-left:5%;
+}
+
+.headingGrid h1{
+    grid-column-start: 1;
+}
+
+.headingGrid .gif{
+    grid-column-start: 2;
 }

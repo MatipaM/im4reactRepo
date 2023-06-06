@@ -10,10 +10,10 @@ import "./NavBar.css";
         return (
         <div className="nav">
           <li>
-            <NavLink to="/" activeClassName="active" className="link">Home</NavLink>
-            <NavLink to="/Design" activeClassName="active" className="link">Design</NavLink>
-            <NavLink to="/Theory" activeClassName="active" className="link">Theory</NavLink>
-            <NavLink to="/Art" activeClassName="active" className="link">Internet Art</NavLink>
+            <NavLink to="" activeClassName="active" className="link">Home</NavLink>
+            <NavLink to="im4reactrepo/Design" activeClassName="active" className="link">Design</NavLink>
+            <NavLink to="im4reactrepo/Theory" activeClassName="active" className="link">Theory</NavLink>
+            <NavLink to="im4reactrepo/Art" activeClassName="active" className="link">Internet Art</NavLink>
           </li>
         </div>
         );
