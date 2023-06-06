@@ -3,6 +3,7 @@ import DesignTimeline from './DesignTimeline';
 import gif from '../Images/LightBulb.gif'
 import img1 from '../Images/Wireframes/BlogPost.png'
 import './Design.css'
+// import './IndividualTimeline'
 
 export default class Design extends Component {
   render() {
