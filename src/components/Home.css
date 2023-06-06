@@ -1,0 +1,37 @@
+html {
+    /* background-image: url("../Images/CanvasTexture.jpeg"); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-color: rgba(0, 9, 149, 0.8); */
+    /* background: linear-gradient(360deg, rgba(0,36,9,1) 0%, rgba(9,121,81,1) 35%, rgba(0,255,241,1) 100%); */
+}
+
+h1{
+    text-align: center;
+}
+
+.GameContainer{
+    border-radius: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+    height: 50vh;
+}
+
+.pGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 1rem;
+    margin-left:5%;
+}
+
+p:nth-child(1)
+{
+    grid-column: 1;
+}
+
+p:nth-child(2)
+{
+    grid-column: 2;
+}
+
