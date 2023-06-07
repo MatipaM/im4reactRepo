@@ -15,7 +15,7 @@ function App() {
 				<Navbar />
 			</React.Fragment>
 			<Routes>
-				<Route path="/" element={<Home />}></Route>
+				<Route path="/im4reactrepo/" element={<Home />}></Route>
 				<Route path="/im4reactrepo/Design" element={<Design />}></Route>
         <Route path="/im4reactrepo/Theory" element={<Theory />}></Route>
         <Route path="/im4reactrepo/Art" element={<Art />}></Route>

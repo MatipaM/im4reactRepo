@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <div>
         <h1>
-        Welcome to my Internet Art Website v.3
+        Welcome to my Internet Art Website v.4 routing
         </h1> 
         <article className="GameGrid">
         <section className="GameContainer">
