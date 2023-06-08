@@ -2,11 +2,15 @@ import React, { Component } from 'react'
 import BlogCard from './BlogCard'
 import './Theory.css';
 import './General.css';
+import Spline from '@splinetool/react-spline';
 
 export default class Theory extends Component {
   render() {
     return (
+       
       <article >
+           <Spline scene="https://prod.spline.design/43CJvgyKutP4aijU/scene.splinecode" />
+
         <h1>
          Theory Page
         </h1>

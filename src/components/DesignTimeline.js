@@ -22,7 +22,6 @@ export default class DesignTimeline extends Component {
 
 <section>
       <h2> Wireframes </h2>
-      <img src="../Images/Wireframes/HomePage.png"/>
     <Timeline position="alternate">
       <IndividualTimeline heading="HomePage" wireframeImg={homePageImg} altText="Homepage wireframe"/>
       <IndividualTimeline heading="Design" wireframeImg={designImg} altText="Design page"/>
