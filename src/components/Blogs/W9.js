@@ -20,6 +20,9 @@ render()
     citation={`ENSMENGER, N. 2015. “Beards, Sandals and Other Signs of Rugged Individualism”: Masculine Culture within the Computing Professions. Scientific Masculinities (January 2015), pp. 38-65.`}
     citation2={`Geyser, H. (2022) ‘How we code matters’. DevConf, Cape Town.`}
     citation3={`MOOR, H, J. 1985. What is Computer Ethics? Metaphilosophy 16 (4), Otober: 266-275.`}
+    prevLink={`/im4reactrepo/W8`}
+    topLink={`/im4reactrepo/W9`}
+    nextLink={`/im4reactrepo/W10`}
     />
 
   )

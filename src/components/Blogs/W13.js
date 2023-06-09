@@ -13,6 +13,9 @@ render()
     references={'References'}
     citation={`Tedre, M., Sutinen, E., Kahkohen, E. & Kommers, P. 2006. Ethnocomputing: ICT in cultural and social context. Communications of the ACM. 49(1):126-130`}
     citation2={`Xaba, S., Fang, S., & Shah, D. 2021. The Impact of Instagram in the Works of Emerging South African Artists. Advances in Social Science, Education and Humanities Research. 568:85-89`}
+    prevLink={`/im4reactrepo/W12`}
+    topLink={`/im4reactrepo/W13`}
+    nextLink={`/im4reactrepo/webArt`}
     />
   )
   }

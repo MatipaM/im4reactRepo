@@ -18,6 +18,9 @@ render()
    p9={`I changed the blog post design structure as I was worried that placing blog cards too close to one another may cause the page to look cluttered. However, in the next submission, I would like to implement this structure and instead use animations so that the blog post in the centre increases in size on hover, and the other blog posts are minimized. This would work as a feedback loop to notify the user which blog post they would be selecting. On Blog cards, I made sure to align the main text with the button. The blog Cards all have 3x3 alignment regardless of the actual number of blog posts, in order to maintain consistency. In general, I made use of percentages for sizing for responsive design, however, for the blog posts, on smaller screens they’ll be two cards in a row and then only a single column for mobile devices. In the future I would like to add next, previous and top buttons so that the user can cycle through the pages as opposed to return the theory page and breaking the flow of their reading process.`}
 p10={`The final page is the Internet Art page, where I placed an artwork of a town where the user can ride around and look around at different angles. All the games on the page use the same user controls WASD, and arrow keys. In my next iteration, I would like to add a small container with the user controls for users who are not familiar with gaming conventions. I made sure all of the games used the same user controls to increase familiarity between the user and the system.`}
 references=""
+prevLink={`/im4reactrepo/UIEssay`}
+topLink={`/im4reactrepo/SG`}
+nextLink={`/im4reactrepo/artEssay`}
    />
   )
   }

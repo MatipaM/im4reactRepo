@@ -15,6 +15,9 @@ render()
     references={'References'}
     citation={`HERTZ, P. 2009. Art, Code, and the Engine of Change. Advancing Art & Design. 68 (1.), Spring: 58-75.`}
     citation2={`KNOCHEL, D, A & PATTON, M. R. 2015. If Art Education Then Critical Digital Making: Computational Thinking and Creative Code. National Art Education Association. 57 (1.), Fall: 21-38.`}
+    prevLink={`/im4reactrepo/W9`}
+    topLink={`/im4reactrepo/W10`}
+    nextLink={`/im4reactrepo/W11`}
     />
   )
   }

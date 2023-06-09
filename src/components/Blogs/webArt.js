@@ -23,7 +23,11 @@ render()
     citation={`COLMAN, A. 2004. Net.art and Net.pedagogy: Introducing Internet Art to the Digital Art Curriculum. Studies in Art Education. 46 (1), Autumn: 61-75.`}
     citation2={`IPPOLITO, J. 2002. Ten Myths of Internet Art. Leornardo. 35 (5), ppp. 485-489.`}
     citation3={`KAWASHIMA, T. & KOBLIN, A. 2008. [Internet Art]. Available at: http://www.tenthousandcents.com/top.html (Accessed 30 April 2023)`}
+    prevLink={`/im4reactrepo/W13`}
+    topLink={`/im4reactrepo/webArt`}
+    nextLink={`/im4reactrepo/W3`}
     />
+
   )
   }
 }

@@ -18,6 +18,9 @@ render()
     citation={`HASSENZAHL, M. & TRACTINSKY, N. 2006. User research – a research agenda. Behaviour & Information Technology 25(2) 91-97.`}
     citation2={`MAILLOUX, S. 2015. Convention and Context. The Johns Hopkins UNIVERSITY PRESS 14 (2), Winter: 399-408.`}
     citation3={`PAPANEK, V. 1984. Design for the real world. United Kingdom: Thames $ Hudson Ltd.`}
+    prevLink={`/im4reactrepo/W5`}
+    topLink={`/im4reactrepo/W8`}
+    nextLink={`/im4reactrepo/W9`}
     />
   )
   }

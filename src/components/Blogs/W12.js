@@ -13,6 +13,9 @@ render()
     references={'References'}
     citation={`AUDRY, S & OPPOLITO, J. 2019. Can Artificial Intelligence Make Art without Artists? Asks The Viewer. Arts 8(1): 1-8;`}
     citation2={`COLTON, S & WIGGINS, A. G. 2012. Computational Creativity: The Final Frontier? Frontiers in Artificial Intelligence and Applications 242:21-26`}
+    prevLink={`/im4reactrepo/W11`}
+    topLink={`/im4reactrepo/W12`}
+    nextLink={`/im4reactrepo/W13`}
     />
   )
   }

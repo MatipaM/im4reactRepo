@@ -17,7 +17,6 @@ h2{
     display: grid;
     grid-template-columns: repeat(2, 0.5fr);
     gap: 1rem;
-    margin-left:5%;
 }
 
 .headingGrid h1{
@@ -46,6 +45,7 @@ img{
     display: grid;
     grid-template-columns: repeat(3, 0.5fr);
     gap: 1rem;
+    margin-bottom: 5%;
  }
 
  @media (max-width: 520px) {

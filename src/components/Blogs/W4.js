@@ -19,6 +19,10 @@ render()
     citation={`BURNS, Ed. (2023) What is Artificial Intelligence (AI) ?. Available at: https://www.techtarget.com/searchenterpriseai/definition/AI-Artificial-Intelligence (Accessed: 25 March 2023).`}
     citation2={`DAVIDSON, D. 1984. Communication and Convention. Springer 59 (1), April: 3-18.`}
     citation3={`MAILLOUX, S. 2015. Convention and Context. The Johns Hopkins UNIVERSITY PRESS 14 (2), Winter: 399-408.`}
+   
+    prevLink={`/im4reactrepo/W3`}
+    topLink={`/im4reactrepo/W4`}
+    nextLink={`/im4reactrepo/W5`}
     />
   )
   }

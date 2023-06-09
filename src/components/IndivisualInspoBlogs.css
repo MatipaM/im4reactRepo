@@ -1,0 +1,18 @@
+.btnGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 1rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.purchase{
+    width: 20%;
+    margin-left: 33%;
+    text-align: center;
+}
+
+p{
+    margin-left: 0%;
+  }
+  

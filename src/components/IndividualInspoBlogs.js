@@ -1,4 +1,6 @@
 import React, { useState, useRef, Component } from "react";
+import {  Link } from "react-router-dom";
+import './IndivisualInspoBlogs.css'
 
 export default class IndividualInspoBlogs extends Component {
 
@@ -23,6 +25,10 @@ export default class IndividualInspoBlogs extends Component {
     citation2: "",
     citation3: "",
     references: "References",
+
+    prevLink:"",
+    topLink:"",
+    nextLink:"",
   }
 
 render()
@@ -62,6 +68,18 @@ render()
         <cite>{this.props.citation}</cite>
         <cite>{this.props.citation2}</cite>
         <cite>{this.props.citation3}</cite>
+
+        <section className="btnGrid">
+        <Link to={this.props.prevLink} className="purchase" >
+            Previous
+          </Link>
+          <Link to={this.props.topLink} className="purchase" >
+            Top
+          </Link>
+          <Link to={this.props.nextLink} className="purchase" >
+            Next
+          </Link>
+          </section>
       </article>
   )
   }
