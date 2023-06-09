@@ -5,3 +5,17 @@
     gap: 1rem;
   }
   
+
+ @containerGrid (max-width: 520px) {
+  .InspoGrid{
+    display: block;
+  }
+}
+
+@containerGrid (max-width: 1080px) {
+.InspoGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  gap: 1rem;
+}
+}
