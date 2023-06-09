@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <div>
         <h1>
-        Welcome to my Internet Art Website v.4 routing
+        Welcome to my Internet Art Website
         </h1> 
         <article className="GameGrid">
         <section className="GameContainer">
@@ -17,8 +17,8 @@ export default class Home extends Component {
         {/* <Spline scene="https://prod.spline.design/lrbDyhquAZX2JWYS/scene.splinecode" /> */}
          </section>
          <section className="pGrid">
-         <p>Paragraph 1 about website</p>
-         <p>Paragraph 2 about website</p>
+         <p>Welcome to my internet art website. This website contains weekly reflections on class lectures, as well as the process behind my internet artwork and how I created it. The internet artwork I created relies heavily on user interaction, therefore please engage with it, as much as you would like :).</p>
+         <p>As, the you navigate through the website, I hope to invoke a sense of calm within you. hence why i used coolly saturated tones as a throughout. I embraced a minimalistic aesthetic to avoid overwhelming the you with sensory information and instead make it clear how you can navigate through the site.</p>
          </section>
          </article>
         <p></p>

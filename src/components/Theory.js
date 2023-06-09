@@ -2,32 +2,28 @@ import React, { Component } from 'react'
 import BlogCard from './BlogCard'
 import './Theory.css';
 import './General.css';
-import Spline from '@splinetool/react-spline';
 
 export default class Theory extends Component {
   render() {
     return (
        
       <article >
-           <Spline scene="https://prod.spline.design/43CJvgyKutP4aijU/scene.splinecode" />
+
 
         <h1>
          Theory Page
         </h1>
         <section className="containerGrid">
-        <BlogCard heading="" subheading="Week 1" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 2" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 3" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 4" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 5" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 6" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 7" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 8" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 9" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 10" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 11" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 12" img="" altText = ""/>
-        <BlogCard heading="" subheading="Week 13" img="" altText = ""/>
+        <BlogCard heading="Week 3 Blog Post" subheading="" img="" altText = "" blogLink="/im4reactrepo/W3"/>
+        <BlogCard heading="Week 4 Blog Post" subheading="" img="" altText = "" blogLink="/im4reactrepo/W4"/>
+        <BlogCard heading="Week 5 Blog Post" subheading="" img="" altText = "" blogLink="/im4reactrepo/W5"/>
+        <BlogCard heading="Week 8 Blog Post" subheading="" img="" altText = "" blogLink="/im4reactrepo/W8"/>
+        <BlogCard heading="Week 9 Blog Post" subheading="" img="" altText = "" blogLink="/im4reactrepo/W9"/>
+        <BlogCard heading="Week 10 Blog Post" subheading="" img="" altText = "" blogLink="/im4reactrepo/W10"/>
+        <BlogCard heading="Week 11 Blog Post" subheading="" img="" altText = "" blogLink="/im4reactrepo/W11"/>
+        <BlogCard heading="Week 12 Blog Post" subheading="" img="" altText = "" blogLink="/im4reactrepo/W12"/>
+        <BlogCard heading="Week 13 Blog Post" subheading="" img="" altText = "" blogLink="/im4reactrepo/W13"/>
+        <BlogCard heading="Neb/Web Art" subheading="" img="" altText = "" blogLink="/im4reactrepo/webArt"/>
         </section>
      </article>
     )

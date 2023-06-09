@@ -1,17 +1,17 @@
 import React, { useState, useRef, Component } from "react";
 import "./BlogCard.css";
+import "./InspoCard.css";
 import {  Link } from "react-router-dom";
 
 export default class BlogCard extends Component {
 
   static defaultProps = {
-    heading: "",
-    // subheading: '',  
-    // img : "",
-    // altText: '',
-    blogLink:""
+    websiteName: "", 
+    img : "",
+    altText: '',
+    link: "",
+    p1:""
   }
-
 
 render()
 {
@@ -26,16 +26,13 @@ render()
           className="sneaaker-img"
         />
         <h2 className="title">
-          {this.props.heading}
+            <a href={this.props.link}>
+          {this.props.websiteName}
+          </a>
         </h2>
-        <h3>
-         {this.props.subheading}
-        </h3>
 
         <div className="button-box">
-        <Link to={this.props.blogLink} className="purchase" >
-            Read More... 
-          </Link>
+          <p> {this.props.p1}          </p>
         </div>
       </div>
   )
