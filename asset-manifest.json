@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/im4reactrepo/static/css/main.8863ea82.css",
-    "main.js": "/im4reactrepo/static/js/main.15122307.js",
+    "main.css": "/im4reactrepo/static/css/main.2488cd13.css",
+    "main.js": "/im4reactrepo/static/js/main.708ac762.js",
     "static/js/872.370d57e1.chunk.js": "/im4reactrepo/static/js/872.370d57e1.chunk.js",
     "static/js/227.962767fe.chunk.js": "/im4reactrepo/static/js/227.962767fe.chunk.js",
     "static/js/526.c0326225.chunk.js": "/im4reactrepo/static/js/526.c0326225.chunk.js",
     "static/js/232.720cec7f.chunk.js": "/im4reactrepo/static/js/232.720cec7f.chunk.js",
     "static/js/237.bbdd4f5d.chunk.js": "/im4reactrepo/static/js/237.bbdd4f5d.chunk.js",
+    "static/media/Apple.png": "/im4reactrepo/static/media/Apple.a61118dba78c36057dc5.png",
+    "static/media/DistantSummit.png": "/im4reactrepo/static/media/DistantSummit.108af7632e0e2aa23afc.png",
     "static/media/LightBulb.gif": "/im4reactrepo/static/media/LightBulb.ad29b882619c4d6eb1d5.gif",
+    "static/media/Disney.png": "/im4reactrepo/static/media/Disney.3303b43deabfc4c62bb4.png",
     "static/media/HomePage.png": "/im4reactrepo/static/media/HomePage.21f8d59c5b988b5b2eca.png",
     "static/media/Design.png": "/im4reactrepo/static/media/Design.c739b889f3325027df3b.png",
     "static/media/RoughSketch.jpg": "/im4reactrepo/static/media/RoughSketch.93007541f711fef1a9b4.jpg",
@@ -15,8 +18,8 @@
     "static/media/BlogPost.png": "/im4reactrepo/static/media/BlogPost.eff602713476e0d028b9.png",
     "static/media/InternetArt.png": "/im4reactrepo/static/media/InternetArt.e3c202a77063a72216c9.png",
     "index.html": "/im4reactrepo/index.html",
-    "main.8863ea82.css.map": "/im4reactrepo/static/css/main.8863ea82.css.map",
-    "main.15122307.js.map": "/im4reactrepo/static/js/main.15122307.js.map",
+    "main.2488cd13.css.map": "/im4reactrepo/static/css/main.2488cd13.css.map",
+    "main.708ac762.js.map": "/im4reactrepo/static/js/main.708ac762.js.map",
     "872.370d57e1.chunk.js.map": "/im4reactrepo/static/js/872.370d57e1.chunk.js.map",
     "227.962767fe.chunk.js.map": "/im4reactrepo/static/js/227.962767fe.chunk.js.map",
     "526.c0326225.chunk.js.map": "/im4reactrepo/static/js/526.c0326225.chunk.js.map",
@@ -24,7 +27,7 @@
     "237.bbdd4f5d.chunk.js.map": "/im4reactrepo/static/js/237.bbdd4f5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8863ea82.css",
-    "static/js/main.15122307.js"
+    "static/css/main.2488cd13.css",
+    "static/js/main.708ac762.js"
   ]
 }
