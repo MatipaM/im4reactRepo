@@ -6,14 +6,14 @@
   }
   
 
- @containerGrid (max-width: 520px) {
-  .InspoGrid{
+ @media (max-width: 520px) {
+  .containerGrid{
     display: block;
   }
 }
 
-@containerGrid (max-width: 1080px) {
-.InspoGrid{
+@media (max-width: 1080px) {
+.containerGrid{
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
   gap: 1rem;
