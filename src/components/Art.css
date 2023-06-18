@@ -1,0 +1,9 @@
+img{
+    border-radius: 5%;
+}
+
+.imgGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    gap: 1rem;
+}
