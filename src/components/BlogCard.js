@@ -6,10 +6,11 @@ export default class BlogCard extends Component {
 
   static defaultProps = {
     heading: "",
-    // subheading: '',  
+    subheading: '',  
     // img : "",
     // altText: '',
     blogLink:""
+
   }
 
 
