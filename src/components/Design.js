@@ -17,10 +17,10 @@ export default class Design extends Component {
   render() {
     return (
       <article>
-        <section className="headingGrid">
+        {/* <section className="headingGrid"> */}
         <h1>Design</h1>
-        <img src={gif} alt="lightBulb gif" className="gif"/>
-        </section>
+        {/* <img src={gif} alt="lightBulb gif" className="gif"/>
+        </section> */}
 
         <section>
 

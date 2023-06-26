@@ -49,3 +49,9 @@ body{
     margin-right: 5%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+.styleGuideGrid{
+    display: grid;
+    grid-template-rows: repeat(6, 0.3fr);
+    margin-bottom: 5%;
+}
