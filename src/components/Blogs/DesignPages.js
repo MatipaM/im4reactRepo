@@ -38,7 +38,6 @@ export default class DesignPages extends Component {
                  <IndividualInspoBlogs 
                  heading={DesignData[this.props.index[0]].heading} 
                  blogLink={DesignData[this.props.index[0]].blogLink} 
-                 img={DesignData[this.props.index[0]].img} 
                  altText={DesignData[this.props.index[0]].altText} 
                  link={DesignData[this.props.index[0]].link} 
                  p1={DesignData[this.props.index[0]].p1} 
@@ -56,7 +55,7 @@ export default class DesignPages extends Component {
                  references={DesignData[this.props.index[0]].references} 
                  prevLink={DesignData[this.props.index[0]].prevLink} 
                  topLink={DesignData[this.props.index[0]].topLink} 
-                 nextLink={DesignData[this.props.index[0]].nextLink} 
+                 nextLink={DesignData[this.props.index[0]].nextLink}
                  />
                 
             </article>

@@ -41,7 +41,7 @@ export default class Design extends Component {
             <h2>Design Essays</h2>
             <section className="InspoGrid">
               {DesignData.map(designData => 
-                 <BlogCard heading={designData.heading} blogLink={designData.blogLink}/>
+                 <BlogCard heading={designData.heading} blogLink={designData.blogLink} img={designData.img}/>
               )}
               </section>
           </section>
