@@ -1,6 +1,7 @@
 import * as React from "react";
 import {Component} from 'react'; 
 import NavBar from "./NavBar";
+import './General.css'
 
  class Header extends Component{
     render()

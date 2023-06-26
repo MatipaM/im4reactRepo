@@ -1,4 +1,5 @@
 import React, { useState, useRef, Component } from "react";
+import './General.css'
 import "./BlogCard.css";
 import "./InspoCard.css";
 import {  Link } from "react-router-dom";

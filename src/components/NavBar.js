@@ -2,6 +2,7 @@ import * as React from "react";
 import {Component} from 'react'; 
 import {  Link, NavLink } from "react-router-dom";
 import Home from './Home';
+import './General.css'
 import "./NavBar.css";
 
  class NavBar extends Component{

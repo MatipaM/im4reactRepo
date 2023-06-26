@@ -2,6 +2,7 @@ import * as React from 'react';
 import {Component} from 'react'; 
 import Timeline from '@mui/lab/Timeline';
 import IndividualTimeline from './IndividualTimeline';
+import './General.css'
 import './Design.css'
 import homePageImg from '../Images/Wireframes/HomePage.png'
 import designImg from '../Images/Wireframes/Design.png'

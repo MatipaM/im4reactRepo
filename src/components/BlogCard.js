@@ -1,15 +1,16 @@
 import React, { useState, useRef, Component } from "react";
 import "./BlogCard.css";
 import {  Link } from "react-router-dom";
+import './General.css'
 
 export default class BlogCard extends Component {
 
   static defaultProps = {
     heading: "",
     subheading: '',  
-    // img : "",
-    // altText: '',
-    blogLink:""
+    altText: '',
+    blogLink:"",
+    image:""
 
   }
 

@@ -9,11 +9,11 @@ import Theory from "./components/Theory";
 import Art from "./components/Art";
 import Footer from "./components/Footer";
   
-import BlogData from './components/Blogs/BlogData';
+import BlogDataPages from './components/Blogs/BlogDataPages';
+import DesignPages from "./components/Blogs/DesignPages";
 
-import UIEssay from './components/Blogs/UIEssay';
-import SG from './components/Blogs/styleGuide';
-import AE from "./components/Blogs/artEssay";
+import SceneB from "./components/Art/SceneB";
+import SceneW from "./components/Art/SceneW";
 
 function App() {
 	return (
@@ -27,22 +27,25 @@ function App() {
         <Route path="/im4reactrepo/Theory" element={<Theory/>}></Route>
         <Route path="/im4reactrepo/Art" element={<Art />}></Route>
 
-		<Route path="/im4reactrepo/webArt" element={<BlogData />}></Route>
+		<Route path="/im4reactrepo/UIEssay" element={<DesignPages />}></Route>
+		<Route path="/im4reactrepo/artEssay" element={<DesignPages />}></Route>
+		<Route path="/im4reactrepo/SG" element={<DesignPages />}></Route>
 
-		<Route path="/im4reactrepo/UIEssay" element={<UIEssay />}></Route>
-		<Route path="/im4reactrepo/styleGuide" element={<styleGuide />}></Route>
-		<Route path="/im4reactrepo/artEssay" element={<AE />}></Route>
-		<Route path="/im4reactrepo/SG" element={<SG />}></Route>
+		<Route path="/im4reactrepo/W3" element={<BlogDataPages />}></Route>
+		<Route path="/im4reactrepo/W4" element={<BlogDataPages />}></Route>
+		<Route path="/im4reactrepo/W5" element={<BlogDataPages />}></Route>
+		<Route path="/im4reactrepo/W8" element={<BlogDataPages />}></Route>
+		<Route path="/im4reactrepo/W9" element={<BlogDataPages />}></Route>
+		<Route path="/im4reactrepo/W10" element={<BlogDataPages />}></Route>
+		<Route path="/im4reactrepo/W11" element={<BlogDataPages />}></Route>
+		<Route path="/im4reactrepo/W12" element={<BlogDataPages />}></Route>
+		<Route path="/im4reactrepo/W13" element={<BlogDataPages />}></Route>
 
-		<Route path="/im4reactrepo/W3" element={<BlogData />}></Route>
-		<Route path="/im4reactrepo/W4" element={<BlogData />}></Route>
-		<Route path="/im4reactrepo/W5" element={<BlogData />}></Route>
-		<Route path="/im4reactrepo/W8" element={<BlogData />}></Route>
-		<Route path="/im4reactrepo/W9" element={<BlogData />}></Route>
-		<Route path="/im4reactrepo/W10" element={<BlogData />}></Route>
-		<Route path="/im4reactrepo/W11" element={<BlogData />}></Route>
-		<Route path="/im4reactrepo/W12" element={<BlogData />}></Route>
-		<Route path="/im4reactrepo/W13" element={<BlogData />}></Route>
+		<Route path="/im4reactrepo/webArt" element={<BlogDataPages />}></Route>
+
+		<Route path="/im4reactrepo/sceneW" element={<SceneW />}></Route>
+		<Route path="/im4reactrepo/sceneB" element={<SceneB />}></Route>
+
 		
 			</Routes>
 			<Footer/>

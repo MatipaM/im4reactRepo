@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './General.css'
 import "./Home.css";
 import Spline from '@splinetool/react-spline';
 

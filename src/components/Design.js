@@ -9,6 +9,9 @@ import AppleImg from '../Images/Inspiration/Apple.png'
 import DistantImg from '../Images/Inspiration/DistantSummit.png'
 import DisneyImg from '../Images/Inspiration/Disney.png'
 import BlogCard from './BlogCard';
+import { DesignData } from './Blogs/DesignData';
+import BlogData from './Blogs/BlogData';
+import './General.css'
 
 export default class Design extends Component {
   render() {
@@ -37,9 +40,9 @@ export default class Design extends Component {
           <section>
             <h2>Design Essays</h2>
             <section className="InspoGrid">
-              <BlogCard heading="UI/UX Critical Essay" blogLink="/im4reactrepo/UIEssay"/>
-              <BlogCard heading="Style Guide" blogLink="/im4reactrepo/SG"/>
-              <BlogCard heading="Internet Art" blogLink="/im4reactrepo/artEssay"/>
+              {DesignData.map(designData => 
+                 <BlogCard heading={designData.heading} blogLink={designData.blogLink}/>
+              )}
               </section>
           </section>
 

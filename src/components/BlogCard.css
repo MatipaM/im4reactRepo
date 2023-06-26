@@ -1,8 +1,8 @@
 
 .containerGrid{
   display: grid;
-  grid-template-columns: repeat(3, 0.5fr);
-  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-columns: repeat(4, 0.5fr);
+  grid-template-rows: repeat(3, 0.5fr);
   gap: 1rem;
   margin-bottom: 5%;
 }
@@ -11,8 +11,8 @@
     position: relative;
     width: auto;
     height: auto;
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 60%;
+    max-height: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,7 +97,8 @@
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .purchase:hover {
-    background-color: rgb(222, 157, 54);
+    background-color: rgb(42, 28, 67);
+    color: white;
   }
 
   h1{
