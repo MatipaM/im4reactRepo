@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/im4reactrepo/static/css/main.5c16dd1b.css",
-    "main.js": "/im4reactrepo/static/js/main.1ee62da0.js",
+    "main.js": "/im4reactrepo/static/js/main.70bf48ee.js",
     "static/js/872.a549ae50.chunk.js": "/im4reactrepo/static/js/872.a549ae50.chunk.js",
     "static/js/227.e8faa921.chunk.js": "/im4reactrepo/static/js/227.e8faa921.chunk.js",
     "static/js/526.92d7acb6.chunk.js": "/im4reactrepo/static/js/526.92d7acb6.chunk.js",
@@ -30,7 +30,7 @@
     "static/media/Reactimg.svg": "/im4reactrepo/static/media/Reactimg.16d32a771ac3a4154b3735d522602b8b.svg",
     "index.html": "/im4reactrepo/index.html",
     "main.5c16dd1b.css.map": "/im4reactrepo/static/css/main.5c16dd1b.css.map",
-    "main.1ee62da0.js.map": "/im4reactrepo/static/js/main.1ee62da0.js.map",
+    "main.70bf48ee.js.map": "/im4reactrepo/static/js/main.70bf48ee.js.map",
     "872.a549ae50.chunk.js.map": "/im4reactrepo/static/js/872.a549ae50.chunk.js.map",
     "227.e8faa921.chunk.js.map": "/im4reactrepo/static/js/227.e8faa921.chunk.js.map",
     "526.92d7acb6.chunk.js.map": "/im4reactrepo/static/js/526.92d7acb6.chunk.js.map",
@@ -39,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.5c16dd1b.css",
-    "static/js/main.1ee62da0.js"
+    "static/js/main.70bf48ee.js"
   ]
 }
