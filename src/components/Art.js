@@ -4,6 +4,7 @@ import blackCharacter from '../Images/SelectCharacter/BlackBiker.png'
 import whiteCharacter from '../Images/SelectCharacter/WhiteBiker.png'
 import './General.css' 
 import './Art.css'
+import { Link } from 'react-router-dom';
 
 export default class Art extends Component {
 
@@ -15,13 +16,13 @@ export default class Art extends Component {
         <h3>Select a character</h3>
 
         <section className='imgGrid'>
-          <a href="/im4reactrepo/sceneB">
+          <Link to="/im4reactrepo/sceneB">
             <img src={blackCharacter}/>
-            </a>
+            </Link>
 
-            <a href="/im4reactrepo/sceneW">
+            <Link to="/im4reactrepo/sceneW">
           <img src={whiteCharacter}/>
-          </a>
+          </Link>
         </section>
         </section>
         </article>
